@@ -218,7 +218,7 @@
 }
 
 p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Lora" serif;
   color: white;
   text-align: left;
   justify-content: center;
@@ -301,6 +301,25 @@ a, a:hover, a:active  {
         z-index: 10;
 
       }
+
+      #who {
+        background-color: yellowgreen;
+        width: fit-content;
+        
+    }
+
+    #do {
+        background-color: yellowgreen;
+        width: fit-content;
+      
+    }
+
+    #portfolio {
+        background-color: yellowgreen;
+        width: fit-content;
+      
+       
+    }
         
       
    
@@ -525,6 +544,25 @@ a, a:hover, a:active  {
       
       
     }
+
+    #who {
+      background-color: yellowgreen;
+      width: fit-content;
+      
+  }
+
+  #do {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+  }
+
+  #portfolio {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+     
+  }
     
     
     .header-info {
@@ -711,7 +749,7 @@ padding: 3px;
   margin-top: 30em;
   position: relative;
   bottom: 4.5rem;
-  right: -12rem;
+  right: -9rem;
  
   
  
@@ -753,7 +791,7 @@ a, a:hover, a:active  {
     
 
   /**********  Super Extra small devices only **********/
-  @media (max-width: 360px) {
+  @media (max-width: 414px) {
     #logo-img{
         width: 140px;
         height: 70px;
@@ -796,12 +834,31 @@ a, a:hover, a:active  {
       
       
     }
+
+    #who {
+      background-color: yellowgreen;
+      width: fit-content;
+      
+  }
+
+  #do {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+  }
+
+  #portfolio {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+     
+  }
     
     
     .header-info {
         background-color: yellowgreen;
         font-style: italic;
-        font-size: 6px
+        font-size: 7px
         
         
       }
@@ -860,9 +917,6 @@ a, a:hover, a:active  {
  
 }
 
-section, #main-slide {
-  z-index: -1;
-}
 
 .slide-caption, h2 {
 font-family: "Oxygen" sans-serif;
@@ -923,7 +977,7 @@ padding: 3px;
     .portfolio {
       height: 200px;
       background-color: white;
-      margin-top: 90em;
+      margin-top: 75em;
     
     
     }
